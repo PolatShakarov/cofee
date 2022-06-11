@@ -1,0 +1,71 @@
+/* saytning tepa qismi uchun */
+
+
+.hero__link {
+    font-family: monospace;
+    font-family:  'Fraunces', 'Arial', 'sans-serif';
+    margin-left: 85px;
+    background-color: #0E8784;
+    color: #FFFFFF;
+    padding: 16px 31px;
+    border-radius: 6px;
+}
+
+.hero__link:hover {
+    background-color: #66D2CF;
+}
+
+.hero__link:active{
+    background-color: rgba(226, 236, 236, 0.685);
+    
+}
+
+.header{
+    width: 1300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+
+    &__container{
+        width: 1300px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    &__list{
+        display: flex;
+    }
+
+    &__item{
+        padding: 33px;
+    }
+
+    &__nav-link--active{
+        font-size: 20px;
+        color: #83888F;
+
+        &:hover{
+            color: red;
+        }
+    }
+
+    &__nav-link{
+        display: inline-block;
+        color: #83888F;
+        font-size: 12px;
+        line-height: 15px;
+
+        &:hover{
+            color: #333D4B;   
+        }
+
+        &:active{
+            color: rgba(226, 236, 236, 0.685);
+        }
+    }
+}

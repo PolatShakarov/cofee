@@ -1,0 +1,50 @@
+/* saytning pastgi stillar uchun */
+
+.footer {
+    max-width: 1280px;
+    height: 120px;
+    margin-top: 216px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:  #2C343E;
+
+    &__container{
+        display: flex;
+        align-items: center;
+        margin-top: 18px;
+    }
+
+    &__list{
+        display: flex;
+        margin-left: 56px;
+    }
+
+    &__item{
+        padding: 25px;
+    }
+
+    &__link{
+        color:#83888F;
+
+        &:hover{
+            color: #FEFCF7;
+        }
+
+        &:active{
+            color: rgba(226, 236, 236, 0.685);   
+        }
+    }
+
+    &__img{
+        padding: 2px;
+    }
+
+    &__item-mobile{
+        padding: 20px;
+    }
+
+    &__list-2{
+        display: flex;
+        margin-left: 304px;
+    }
+}
